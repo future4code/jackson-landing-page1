@@ -1,0 +1,154 @@
+/* reset pagina */
+body {
+  background-color: #fc954c38;
+  color: rgb(83, 83, 83);
+}
+
+* {
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* topo */
+header {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.384);
+  background-color: white;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container img {
+  width: 60px;
+  border-radius: 50vw;
+  box-shadow: 2px 2px 3px rgba(3, 3, 3, 0.452);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  color: #fc954c;
+  font-weight: bold;
+}
+
+/* main */
+main {
+  width: 95vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+section {
+  margin: 40px 0 20px 0;
+}
+
+section img {
+  width: 100%;
+  border-radius: 50%;
+}
+.principal-quem-somos{
+  margin-top: 50px;
+}
+.principal-quem-somos p{
+  font-size: 150%;
+}
+.principal-quem-somos img{
+  width: 100%;
+ border-radius: 20px;
+ box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
+ margin: 30px 0 20px 0;
+}
+.principal-servico{
+  margin-top: 50px;
+}
+.servico{
+  background-color: white;
+  color: #d85f09;
+  margin-top: 30px;
+  padding: 30px  30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  text-align: start;
+}
+.servico p{
+  font-size: 140%;
+  padding: 15px 0 15px 0;
+}
+ button{
+  padding: 10px;
+  border: 1px solid #d85f09 ;
+  border-radius: 10px;
+}
+
+.principal-contato{
+  margin-top: 50px;
+  width: 340px;
+}
+.telefone, .email{
+  display: flex;
+  align-items: center;
+  margin-top: 40px; 
+}
+.telefone img, .email img{
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
+  margin-right: 20px;
+}
+
+.telefone p, .email p{
+  font-size: 150%;
+  
+}
+form{
+  text-align: start;
+  margin-top: 50px;
+}
+#name, #email, #mensagem{
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
+}
+#mensagem{
+  margin-bottom: 20px;
+}
+  
+/* Rodapé */
+footer{
+  margin-top: 50px;
+  width: 100%;
+  background-color:#fc954c;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.rede-sociais img{
+width: 50px;
+}
+footer p{
+  text-shadow: 2px 2px 20px black;
+  padding-bottom: 10px;
+}
