@@ -62,11 +62,19 @@ section {
 }
 
 section img {
-  width: 100%;
+  width: 90%;
   border-radius: 50%;
+  margin: 20px 0 20px 0;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.568);
 }
+
 .principal-quem-somos{
+  margin-top: 30px;
+  text-align: center;
+}
+h1{
   margin-top: 50px;
+  text-align: center;
 }
 .principal-quem-somos p{
   font-size: 150%;
@@ -97,6 +105,7 @@ section img {
   padding: 10px;
   border: 1px solid #d85f09 ;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .principal-contato{
@@ -151,4 +160,75 @@ width: 50px;
 footer p{
   text-shadow: 2px 2px 20px black;
   padding-bottom: 10px;
+}
+
+/* media queries */
+@media screen and (min-width: 1280px) {
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  nav ul li{
+    padding-left: 40px;
+  }
+  nav ul li a{
+    font-size: 140%;
+  }
+  nav ul li a:hover{
+    color: #a8602c;
+  }
+  section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  section img{
+    width: 40%;
+  }
+  section h2{
+    width: 30%;
+    line-height: 45px;
+    font-size: 170%;
+  }
+  .maquina{
+    flex-direction: row-reverse;
+  }
+  .banner{
+    margin-bottom: 100px;
+  }
+  .rede-sociais{
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .principal-quem-somos{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .principal-quem-somos img{
+    width: 40%;
+  } 
+  .principal-quem-somos p{
+    width: 45%;
+  }
+  .principal-servico{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .servico{
+    margin-top: 50px;
+    width: 45%;
+  }
+  .servico:nth-child(2) p, .servico:nth-child(3) p{
+    padding: 40px 0 40px 0;
+  }
 }
